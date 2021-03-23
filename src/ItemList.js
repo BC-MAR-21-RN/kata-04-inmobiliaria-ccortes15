@@ -1,26 +1,30 @@
 import React, { Component } from 'react';
-import { View, Text, SafeAreaView, StatusBar, ScrollView, Button } from 'react-native';
-import { Colors } from 'react-native/Libraries/NewAppScreen';
+import { FlatList, SafeAreaView,StyleSheet } from 'react-native';
+import Item from './components/item';
+import { data } from './db/data';
 
 class ItemList extends Component {
     render() {
+        const renderItem = ({ item }) => (
+            <Item item={item} />
+        )
+
         return (
-            <SafeAreaView style={{ backgroundColor: Colors.darker }}>
-                <StatusBar barStyle={'dark-content'} />
-                <ScrollView
-                    contentInsetAdjustmentBehavior="automatic"
-                    style={{ backgroundColor: Colors.darker }}>
-                    <View
-                        style={{
-                            backgroundColor: Colors.white,
-                        }}>
-                        <Text>Item List view</Text>
-                        
-                    </View>
-                </ScrollView>
+            <SafeAreaView style={styles.container}>
+                <FlatList
+                    data={data}
+                    renderItem={renderItem}
+                    keyExtractor={item => item.id}
+                />
             </SafeAreaView>
         )
     }
 }
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+    },
+});
 
 export default ItemList;

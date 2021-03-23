@@ -12,8 +12,8 @@ function App() {
     <SafeAreaProvider>
       <NavigationContainer>
         <Stack.Navigator initialRouteName="Inicio">
-          <Stack.Screen name="Home" options={{ title: '' }} component={HomeScreen} />
-          <Stack.Screen name="ItemList" options={{title: 'Casas disponibles'}} component={ItemList} />
+          <Stack.Screen name="Home" options={{ headerShown: false }} component={HomeScreen} />
+          <Stack.Screen name="ItemList" options={{headerShown: false}} component={ItemList} />
         </Stack.Navigator>
       </NavigationContainer>
     </SafeAreaProvider>
