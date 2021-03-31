@@ -1,8 +1,8 @@
 export const data = [
     {
-        id: 1,
+        id: 'a1',
         name: 'Departamento Cancún',
-        address: 'Diagonal Av. 80, Playa del Carmen, Cancún.',
+        address: 'Av. 80, Playa del Carmen',
         rooms: 4,
         bathrooms: 3,
         area: 142,
@@ -11,9 +11,9 @@ export const data = [
         isLike: true
     },
     {
-        id: 2,
+        id: 'a2',
         name: 'Departamento Puerto Vallarta',
-        address: 'Calle Pierre Faure 132, Zona Hotelera, Puerto Vallarta, Jalisco.',
+        address: 'Calle Pierre Faure 132',
         rooms: 3,
         bathrooms: 3,
         area: 122,
@@ -22,9 +22,9 @@ export const data = [
         isLike: false
     },
     {
-        id: 3,
+        id: 'a3',
         name: 'Casa Puerto Vallarta',
-        address: 'Calle Paseo Del Sol 2870, Palmar de Aramara, 48314 Puerto Vallarta, Jal.',
+        address: 'Paseo Del Sol 2870',
         rooms: 3,
         bathrooms: 2,
         area: 126,
@@ -33,9 +33,9 @@ export const data = [
         isLike: true
     },
     {
-        id: 4,
+        id: 'a4',
         name: 'Casa León Gto.',
-        address: 'Calle Praga 313-271, Andrade, 37370 León, Gto.',
+        address: 'Calle Praga 313-271',
         rooms: 2,
         bathrooms: 1,
         area: 102,
@@ -44,9 +44,9 @@ export const data = [
         isLike: false
     },
     {
-        id: 5,
+        id: 'a5',
         name: 'Casa Mazatlán, Sinaloa',
-        address: 'Aries 3623-3567, Villa Galaxia, 82150 Mazatlán, Sin.',
+        address: 'Aries 3623-3567, Villa Galaxia',
         rooms: 3,
         bathrooms: 2,
         area: 132,
@@ -55,9 +55,9 @@ export const data = [
         isLike: false
     },
     {
-        id: 6,
+        id: 'a6',
         name: 'Casa CDMX',
-        address: 'Calle Apantli 42-40, Talabarteros, 56356 Chimalhuacán, Méx.',
+        address: 'Calle Apantli 42-40, Talabarteros',
         rooms: 1,
         bathrooms: 1,
         area: 92,
@@ -66,9 +66,9 @@ export const data = [
         isLike: false
     },
     {
-        id: 7,
+        id: 'a7',
         name: 'Departamento Chihuahua',
-        address: 'Calle 33 4214, San Rafael, 31060 Chihuahua, Chih.',
+        address: 'Calle 33 4214, San Rafael',
         rooms: 3,
         bathrooms: 2,
         area: 132,
@@ -77,9 +77,9 @@ export const data = [
         isLike: true
     },
     {
-        id: 8,
+        id: 'a8',
         name: 'Casa Tijuana, B.C.',
-        address: 'De la Meseta 2025-2187, Jardines del Sol, Tijuana, B.C.',
+        address: 'De la Meseta 2025-2187',
         rooms: 3,
         bathrooms: 3,
         area: 132,
@@ -88,9 +88,9 @@ export const data = [
         isLike: true
     },
     {
-        id: 9,
+        id: 'a9',
         name: 'Departamento La Paz',
-        address: 'Nueva Reforma 575, A, 23090 La Paz, B.C.S.',
+        address: 'Nueva Reforma 575',
         rooms: 2,
         bathrooms: 1,
         area: 112,
@@ -99,9 +99,9 @@ export const data = [
         isLike: true
     },
     {
-        id: 10,
+        id: 'a10',
         name: 'Departamento Cabo San Lucas',
-        address: 'Calle Mariano Matamoros 1185, Downtown, Ildefonso Green, 23470 Cabo San Lucas, B.C.S.',
+        address: 'Mariano Matamoros 1185',
         rooms: 3,
         bathrooms: 2,
         area: 126,
